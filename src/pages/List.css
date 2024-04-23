@@ -1,0 +1,9 @@
+ion-item:hover {
+    --background: #5cffa6;
+    --color: var(--ion-color-dark);
+}
+
+ion-item::part(detail-icon) {
+    color: aqua;
+    opacity: 1;
+}
